@@ -1,0 +1,33 @@
+name: gae
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  table_calendar: ^3.0.0 # Tambahkan dependensi untuk table_calendar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Tambahkan daftar assets di sini
+  assets:
+    - assets/owl.jpg
+    - assets/frog.jpg
+    - assets/lion.jpg
+    - assets/dino.jpg
+    - assets/cat2.jpg
+    - assets/loopy1.jpg
+    - assets/duck.jpg
+    - assets/loopy2.jpg
